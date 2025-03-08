@@ -4,52 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Colaes Travel Peru</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
-        header {
-            background: #008080;
-            color: white;
-            padding: 15px;
-        }
-        .container {
-            padding: 20px;
-        }
-        .btn {
-            display: inline-block;
-            padding: 10px 20px;
-            background: #008080;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            margin-top: 10px;
-        }
-        footer {
-            background: #333;
-            color: white;
-            padding: 10px;
-            position: absolute;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Bienvenidos a Colaes Travel Peru</h1>
+        <h1>Colaes Travel Peru</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#tours">Tours</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
     </header>
-    <div class="container">
-        <h2>Explora el Perú con Nosotros</h2>
-        <p>Somos una agencia de viajes especializada en experiencias únicas en Perú.</p>
-        <a href="https://www.colaestravelperu.com" class="btn">Visita nuestra web</a>
-    </div>
+    
+    <section id="inicio">
+        <h2>Bienvenidos a Colaes Travel Peru</h2>
+        <p>Descubre las maravillas de Perú con nuestros tours exclusivos.</p>
+    </section>
+    
+    <section id="nosotros">
+        <h2>Sobre Nosotros</h2>
+        <p>Somos una agencia de viajes con años de experiencia en turismo.</p>
+    </section>
+    
+    <section id="tours">
+        <h2>Nuestros Tours</h2>
+        <div class="tour">
+            <h3>Machu Picchu</h3>
+            <p>Explora la ciudadela inca con nuestros guías expertos.</p>
+        </div>
+        <div class="tour">
+            <h3>Montaña de 7 Colores</h3>
+            <p>Una experiencia inolvidable en los Andes peruanos.</p>
+        </div>
+    </section>
+    
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Envíanos un mensaje para más información.</p>
+        <form>
+            <input type="text" placeholder="Tu nombre" required>
+            <input type="email" placeholder="Tu email" required>
+            <textarea placeholder="Tu mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    
     <footer>
-        <p>&copy; 2025 Colaes Travel Peru. Todos los derechos reservados.</p>
+        <p>&copy; 2025 Colaes Travel Peru - Todos los derechos reservados</p>
     </footer>
+</body>
+</html>
+
 </body>
 </html>
 
