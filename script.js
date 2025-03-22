@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (boton) {
         boton.addEventListener("click", function () {
-            window.location.href = "https://x.com/";
+            window.location.href = "https://doramasflix.co/";
         });
     } else {
         console.error("El botón no se encontró en el DOM.");
