@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (boton) {
         boton.addEventListener("click", function () {
-            window.location.href = "https://x.com/home";
+            window.location.href = "https://x.com/";
         });
     } else {
         console.error("El botón no se encontró en el DOM.");
